@@ -23,7 +23,7 @@ class Controller extends GetxController {
   late TabController tabController;
   final TextEditingController logTextEditingController =
       TextEditingController();
-  static const int _totalTab = 3;
+  static const int _totalTab = 4;
   Timer? logTimer;
   int logHeaderDuration = 2000;
   var devIndex = 0.obs;

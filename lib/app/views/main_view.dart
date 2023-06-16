@@ -39,6 +39,7 @@ import 'package:get/get.dart';
 import 'package:ble_esp32/main.dart' show ctrl;
 import 'package:ble_esp32/app/views/data_logs_view.dart' show DataLogs;
 import 'package:ble_esp32/app/views/devices_view.dart' show DevicesView;
+import 'temperature_view.dart' show TemperatureView;
 
 final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -211,6 +212,17 @@ class MainView extends StatelessWidget {
                 Text('Device List')
               ],
             )),
+            Tab(
+                icon: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.list_alt_outlined),
+                SizedBox(
+                  width: 4,
+                ),
+                Text('Temperature')
+              ],
+            )),
           ],
         ),
       ),
@@ -230,6 +242,9 @@ class MainView extends StatelessWidget {
 
               // device list tab
               DevicesView(),
+
+              // device list tab
+              TemperatureView(),
             ],
           ),
         ),
