@@ -16,5 +16,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 running : flutter run -d web-server --web-hostname=0.0.0.0 --web-port=3000
-https://mocheffendi-cuddly-space-happiness-r5jq5j6wg7h597g-3000.preview.app.github.dev/#/
-https://mocheffendi-cuddly-space-happiness-r5jq5j6wg7h597g.github.dev
+-[Web debug](https://mocheffendi-cuddly-space-happiness-r5jq5j6wg7h597g-3000.preview.app.github.dev/#/)
+
+-[Github: Codespaces](https://mocheffendi-cuddly-space-happiness-r5jq5j6wg7h597g.github.dev)
